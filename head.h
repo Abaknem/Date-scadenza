@@ -1,11 +1,10 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 #include <time.h>
 
 class Magazzino{
 	private:
-		char date[20];
-		char prod[20];
 		FILE *fp;
 		FILE *fs;
 	public:

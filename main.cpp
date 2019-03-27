@@ -5,7 +5,6 @@
 int main(int argc, char** argv) {
 	Magazzino mgz;
 	
-	mgz.CtrData();
-		
+	mgz.Menu();
 	return 0;
 }
